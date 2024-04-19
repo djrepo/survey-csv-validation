@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "0e9bac75-f7bc-423b-bbb9-ba6df82f6329",
+		"name": "csv",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "upload csv",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/tmp/platomics-spring-boot-challenge-main/src/test/resources/valid/valid.csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/csv/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"csv",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
