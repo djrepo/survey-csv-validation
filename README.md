@@ -1,4 +1,4 @@
-# Platomics Spring Boot Challenge
+# Spring Boot Challenge
 
 We are using a tool called [SurveyJS](https://surveyjs.io/) to enable our regulatory team to create and edit forms
 without depending on software developers. Using a form editor, they can design dynamic forms consisting of
